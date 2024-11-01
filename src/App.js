@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ReUseEffect from "./useEffect/ReUseEffect";
+//import Hello from "./UseContext/UseContextEx1";
+// import Final from "./UseReducer/UseReducerBasics";
+// import Reducer from "./UseReducer/useReducerEx2";
+// import ReUseState from "./usestate/ReUsestate";
+// import Cart from './useEffect/Useeffectex1';
+// import Hello from "./useEffect/Useeffect1";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Hello/> */}
+      {/* <Cart/> */}
+      {/* <Hello /> */}
+      {/* <Final/> */}
+      {/* <ReUseState />  */}
+      <ReUseEffect />
     </div>
   );
 }

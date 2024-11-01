@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  font-style: italic;
+  animation-name: lokesh;
+  position: relative;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lokesh {
+  0% {
+    color: red;
+    left: 0px;
+    top: 20px;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
